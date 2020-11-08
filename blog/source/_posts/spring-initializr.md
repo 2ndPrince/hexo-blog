@@ -28,7 +28,7 @@ Visit Spring Initialzr, a website tool that generates spring-boot project for yo
 
 ## Create a demo controller
 
-Create an endpoint “/demo/message” that takes in a string and returns the length of your input string.
+Create an endpoint “/demo/message” that takes in a string and returns the length of your input string.1
 
 {% codeblock lang:java %}
 @RestController

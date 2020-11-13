@@ -3,8 +3,8 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Java Developer Blog
-subtitle: Java Developer Blog
+title: 2ndPrince Blog
+subtitle: Java Spring Developer
 author: 2ndPrince
 language: en
 timezone: EST
@@ -29,10 +29,12 @@ permalink_defaults:
 # Custom Setting Start
 
 # Site settings
-SEOTitle: SEOTitle goes here
+SEOTitle: 2ndPrince Blog
 email: astonisher88@gmail.com
-description: "Java Developer's blog"
-keyword: "Java, Spring"
+description: Java Spring Developer
+keyword:
+  - Java
+  - Spring
 header-img: img/header_img/newhome_bg.jpg
 archives-img: img/header_img/archive_bg2.jpg
 
@@ -43,7 +45,7 @@ favicon: img/avatar/roguerabbit.jpg
 
 # Signature Setup
 signature: true # show signature
-signature-img: img/signature/vincent-white.png
+signature-img: img/signature/ysl-signature-white.png
 
 
 # Wave settings
@@ -64,7 +66,7 @@ github_username: 2ndPrince
 # Sidebar Settings
 sidebar: true   # whether or not using Sidebar.
 sidebar-about-description: "Sidebar description goes here"
-sidebar-avatar: img/avatar/fatpeople.jpg    # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: img/avatar/roguerabbit.jpg    # use absolute URL, seeing it's used in both `/` and `/about/`
 widgets:
 - visitor   # busuanzi: https://busuanzi.ibruce.info/
 - featured-tags
@@ -87,15 +89,10 @@ featured-condition-size: 0    # A tag will be featured if the size of it is more
 ## Friends
 friends: [
     {
-        title: "V_Vincen",
-        href: "https://v-vincen.life/"
-    },{
         title: "Bean Tech",
         href: "http://beantech.org"
-    },{
-        title: "Hux Blog",
-        href: "http://huangxuan.me"
-    },{
+    },
+    {
         title: "Hexo",
         href: "https://hexo.io/"
     }

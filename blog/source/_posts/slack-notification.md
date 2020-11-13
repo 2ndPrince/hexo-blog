@@ -5,6 +5,7 @@ date: 2020-11-08 03:24:24
 subtitle:
 header-img:
 tags:
+- notification
 categories:
 ---
 # Configure Slack Notifications from Github and Jenkins

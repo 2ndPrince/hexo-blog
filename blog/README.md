@@ -1,20 +1,13 @@
-# Hexo-Theme-LiveMyLife
+# 2ndPrince Developer Blog
 
-> Ported Theme of [Hux Blog](https://github.com/Huxpro/huxpro.github.io), Thank [Huxpro](https://github.com/Huxpro) for designing such a flawless theme.
+> Ported Theme of [Hux Blog](https://github.com/Huxpro/huxpro.github.io) and [LiveMyLife](https://github.com/V-Vincen/hexo-theme-livemylife), Thank [Huxpro](https://github.com/Huxpro) for designing such a flawless theme.
 >
 > This LiveMyLife theme created by [Vincent](https://wvincen.gitee.io/) modified from the original Porter [YenYuHsuan](https://github.com/YenYuHsuan/hexo-theme-beantech) , refer to the Themes of [dusign](https://github.com/dusign/hexo-theme-snail)、[Utone](https://github.com/shixiaohu2206/hexo-theme-huhu), Thanks [dusign](https://github.com/dusign/hexo-theme-snail)、[Utone](https://github.com/shixiaohu2206/hexo-theme-huhu).
->   
-
-## [View Live LiveMyLife Blog →](https://v-vincen.life/)
-
+>
 
 ![LiveMyLife Desktop](https://github.com/V-Vincen/hexo-theme-livemylife/blob/master/source/_posts/Hexo-Theme-LiveMyLife/livemylife-desktop.png)
 
 ## Quick Start
-
-I publish the whole project for your convenience, so you can just follow the instruction down below, then you can easily customiz your own blog!
-
-Let's begin!!!
 
 ### Install Node.js and Git
 ```shell
@@ -40,11 +33,10 @@ $ hexo init blog
 ```
 > More Commands -> [Hexo Commands](https://hexo.io/docs/commands)
 
-
 ## Theme Usage
 ### Init
 ```shell
-cd bolg
+cd blog
 rm -rf _config.yml package.json scaffolds source themes yarn.lock #just keep node_modules
 git clone https://github.com/V-Vincen/hexo-theme-livemylife.git
 mv hexo-theme-livemylife/* ./
@@ -76,110 +68,20 @@ Modify `_config.yml` file with your own info, Especially the section:
 Replace the following information with your own.
 ```yml
 # Site
-title: Live My Life
-subtitle: 淡而无味也是一种味道
-author: Mr.Vincent
-language: zh-CN
-timezone:
+title: 2ndPrince Blog
+subtitle: Java Spring Developer
+author: 2ndPrince
+language: en
+timezone: EST
 ```
 
 ### CDN Settings
-JsDelivr is A free CDN for Open Source fast、reliable and automated. If Github Pages deploy，you can config CDN settings. The images of the Hexo-theme-livemylife has added JsDelivr CDN Setting. How to use Jsdelivr? -> Docs：[免费 CDN 提速 Github 静态资源访问](https://v-vincen.life/2020/07/15/Github-%E5%8A%A0%E9%80%9F%E4%BC%98%E5%8C%96/#%E5%85%8D%E8%B4%B9-CDN-%E6%8F%90%E9%80%9F-Github-%E9%9D%99%E6%80%81%E8%B5%84%E6%BA%90%E8%AE%BF%E9%97%AE)
-```yml
-# CDN Setting
-# Docs: https://www.jsdelivr.com/?docs=gh
-# If Github Pages deploy，you can ues jsdelivr settings
-#
-jsdelivr:
-  jsdelivr_url: https://cdn.jsdelivr.net/gh/
-  github_username: V-Vincen
-```
-
 ### Site Settings
-Put customized pictures in img directory.
-```yml
-# Site settings
-SEOTitle: JavaDev | 一如Java深似海
-email: hexo-theme-livemylife@mail.com
-description: "It's an IT blog..."
-keyword: "Java,v-vincen,v-vincen,livemylife,IT  blog,Blog"
-header-img: img/header_img/newhome_bg.jpg
-archives-img: img/header_img/archive_bg2.jpg
-```
-
 ### Favicon Settings
-```yml
-favicon: img/avatar/favicon.jpg
-```
-
 ### Signature Settings
-Copy your signature image to `<root>/img/signature` and modify the `_config.yml`.
-```yml
-signature: true   # show signature
-signature-img: img/signature/<your-signature>
-```
-> How to create signature -> [Free Online Signature](https://fontmeme.com/signature-fonts/)
-
 ### Wave Settings
-```yml
-# Wave settings
-wave: true
-```
-Example:
-
-![wave](https://github.com/V-Vincen/hexo-theme-livemylife/blob/master/source/_posts/Hexo-Theme-LiveMyLife/wave.png)
-
-
 ### SNS Settings
-If you don’t want to display it, you can delete it directly.
-```yml
-# SNS settings
-# RSS: true
-github_username: V-Vincen
-twitter_username: V_Vincen_
-instagram_username: V_Vincen_
-# facebook_username:  yourAccount
-# linkedin_username:  yourAccount
-# zhihu_username: yourAccount
-weibo_username: WVincen
-```
-
 ### Sidebar Settings
-Copy your avatar image to `<root>/img/avatar` and modify the `_config.yml`:
-```yml
-sidebar: true   # whether or not using Sidebar.
-sidebar-about-description: "I don't know where I am going ,but I am on my way..."
-sidebar-avatar: img/avatar/vincnet.jpg    # use absolute URL, seeing it's used in both `/` and `/about/`
-widgets:
-- visitor   # busuanzi: https://busuanzi.ibruce.info/
-- featured-tags
-- short-about
-- recent-posts
-- friends-blog
-- archive
-- category
-
-# widget behavior
-## Archive
-archive_type: 'monthly'
-show_count: true
-
-## Featured Tags
-featured-tags: true   # whether or not using Feature-Tags
-featured-condition-size: 0    # A tag will be featured if the size of it is more than this
-
-## Friends
-friends: [
-    {
-        title: "V_Vincen",
-        href: "https://v-vincen.life/"
-    },{
-        title: "Teacher Ye",
-        href: "http://teacherye.com/"
-    }
-]
-```
-
 ### Comment Settings
 Hexo-Theme-LiveMyLife temporarily supports three Comments. I use gitalk comment system.
 
@@ -241,14 +143,6 @@ How to config Sitemap? -> Docs:[Analytics and Sitemap Settings](https://v-vincen
 # Google sitemap
 sitemap:
   path: sitemap.xml
-
-# Baidu sitemap
-baidusitemap:
-  path: baidusitemap.xml
-
-baidu_push: true
-```
-
 
 ### Go to top icon Setup
 My icon is using point, you can change to your own icon at `sourcre/css/images`.

@@ -65,8 +65,8 @@ github_username: 2ndPrince
 
 # Sidebar Settings
 sidebar: true   # whether or not using Sidebar.
-sidebar-about-description: "Sidebar description goes here"
-sidebar-avatar: img/avatar/roguerabbit.jpg    # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-about-description: Welcome to my blog
+sidebar-avatar: img/avatar/youngseok.jpeg    # use absolute URL, seeing it's used in both `/` and `/about/`
 widgets:
 - visitor   # busuanzi: https://busuanzi.ibruce.info/
 - featured-tags

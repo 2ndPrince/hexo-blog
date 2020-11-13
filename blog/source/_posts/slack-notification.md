@@ -1,11 +1,12 @@
 ---
-title: slack-notification
+title: Slack-Notification
 catalog: true
 date: 2020-11-08 03:24:24
 subtitle:
 header-img:
 tags:
-- notification
+- Notification
+- Slack
 categories:
 ---
 # Configure Slack Notifications from Github and Jenkins

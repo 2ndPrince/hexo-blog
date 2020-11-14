@@ -8,6 +8,7 @@ tags:
 - Notification
 - Slack
 categories:
+- DevOps
 ---
 # Configure Slack Notifications from Github and Jenkins
 ---

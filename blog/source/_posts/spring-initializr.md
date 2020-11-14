@@ -1,13 +1,13 @@
 ---
 title: Spring-Initializr
-catalog: true
+catalog: false
 date: 2020-11-05 03:21:14
 subtitle:
 header-img:
 tags:
 - Spring
 categories:
-- Starter
+- From-Previous-Blog-General
 ---
 
 # Start a project with Spring Initializr

@@ -6,6 +6,7 @@ subtitle:
 header-img:
 tags:
 categories:
+- From-Previous-Blog-General
 ---
 
 
@@ -14,6 +15,8 @@ categories:
 ## Overview
 Last time, using Spring-Initializr, we created a springboot project.
 In this post, we are going to create a simple rest endpoint and test it on browser.
+
+---
 
 ## Create a Project
 Use Spring-Initializr.

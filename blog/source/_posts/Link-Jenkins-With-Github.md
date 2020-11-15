@@ -100,7 +100,14 @@ Go to your jenkins and watch the build triggered.
 
 From the image, you can confirm that the build has been `Started by Github push by 2ndPrince`
 
-For now, it only executes clean and build, but you might want to add deploy option in the future.
+For now, it only executes the shell command `clean and build` at one step.
+In the future, you might want to create `Jenkins pipelines` that includes
+
+- clean and build
+- test
+- sonarqube
+- deploy
+- etc...
 
 ---
 

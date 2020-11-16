@@ -6,6 +6,7 @@ subtitle:
 header-img:
 tags:
 - Gradle
+- Annotation
 categories:
 - From-Previous-Blog-General
 ---
